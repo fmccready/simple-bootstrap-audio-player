@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Simple Bootstrap Audio Player</title>
+    <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="simple-bootstrap-audio-player.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>A simple audio player.</h1>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Water</h2>
+          <audio controls>
+            <source src="sample-audio/water.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Wind</h2>
+          <audio controls>
+            <source src="sample-audio/wind.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <h2>Siren</h2>
+          <audio controls>
+            <source src="sample-audio/siren.mp3" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="howler-2.js"></script>
+    <script src="simple-bootstrap-audio-player.js"></script>
+  </body>
+</html>
